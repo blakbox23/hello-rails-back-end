@@ -1,24 +1,60 @@
-# README
+# hello-rails-back-end
+This is the back-end of a project that displays random greetings which are received from a database. This back-end is built with postgreql and Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Built With
+- Rails
+- Postgresql
 
-* Ruby version
+## FrontEnd Link
+[Front-end link](https://github.com/blakbox23/hello-react-front-end)
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple example steps.
+- Clone the repository with:
+`git clone https://github.com/blakbox23/hello-rails-back-end.git`
 
-* Database creation
+- Install dependencies by running:
+`bundle install`
 
-* Database initialization
+- Create database 
 
-* How to run the test suite
+```
+rails db:create
+rails db:migrate
+rails db:seed
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Usage
+To run the app in your machine, run `rails s`
+Make sure to run this back-end part of the project on `port:3000`,
 
-* Deployment instructions
 
-* ...
+
+## Authors
+
+👤 **Peter Mbuthia**
+
+- GitHub: [@Blakbox23](https://github.com/blakbox23)
+- Twitter: [@blakbox23](https://twitter.com/blakbox23)
+- LinkedIn: [Peter Mbuthia](https://www.linkedin.com/in/peter-mbuthia)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/blakbox23/hello-rails-back-end./issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Collegues at Microverse
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
